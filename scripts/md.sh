@@ -1,0 +1,19 @@
+python main.py \
+--multigpu 0 \
+--gpu 0 \
+--dataset mix \
+--way_train 5 \
+--num_sup_train 1 \
+--num_qur_train 15 \
+--way_test 5 \
+--num_sup_test 1 \
+--num_qur_test 15 \
+--backbone conv4 \
+--epochs 1000 \
+--episode_test 600 \
+--inner_update_num 5 \
+--test_inner_update_num 10 \
+--start_id 1 \
+--inner_lr 0.01 \
+--outer_lr 0.001 \
+--Glr 0.001
